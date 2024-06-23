@@ -212,6 +212,7 @@ button:focus {
   font-weight: bold;
   color: var(--main-color, #000028);
   font-size: 18px;
+  line-height: 23.4px;
 }
 
 /*///////////////////////////////////////////////////////////*/
@@ -307,7 +308,11 @@ button:focus {
 }
 
 .content__paragrah_title {
-  margin-bottom: 9px;
+  margin-bottom: 10px;
+}
+
+.no-margin {
+  margin-bottom: 0px;
 }
 
 .content__text-block {
