@@ -8,7 +8,6 @@
 }
 
 .page.theme_light {
-  --display: none;
   --main-color: #fff1f7;
   --accent-color: #ff8dcb;
   --text-color: #353430;
@@ -16,16 +15,47 @@
   --bg-img: url(../images/cover-image-light.png);
   --button-border-hover: #32312d66;
 }
-
 
 @media (prefers-color-scheme: light) {
   :root {
-    --display: none;
-  --main-color: #fff1f7;
-  --accent-color: #ff8dcb;
-  --text-color: #353430;
-  --header-color: #ffc2e6;
-  --bg-img: url(../images/cover-image-light.png);
-  --button-border-hover: #32312d66;
+    --main-color: #fff1f7;
+    --accent-color: #ff8dcb;
+    --text-color: #353430;
+    --header-color: #ffc2e6;
+    --bg-img: url(../images/cover-image-light.png);
+    --button-border-hover: #32312d66;
+  }
+  .theme_auto .rec {
+    display: none;
+  }
+  
+  .theme_auto .header__theme-menu-button {
+    color: var(--text-color, #353430);
+  }
+  
+  .theme_auto .header__theme-menu-button_active {
+    border: 1px solid var(--text-color, #353430);
+  }
+  
+  .theme_auto .decorated-zone::before {
+    border-top: 1px solid var(--text-color, #353430);
+    border-right: 1px solid var(--text-color, #353430);
+  }
+  
+  .theme_auto .decorated-zone::after {
+    border-bottom: 1px solid var(--text-color, #353430);
+    border-left: 1px solid var(--text-color, #353430);
+  }
+  
+  .theme_auto .title-decor {
+    background-color: var(--accent-color, #ff8dcb);
+    color: var(--text-color, #353430);
+  }
+  
+  .theme_auto .content__title {
+    color: var(--text-color, #353430);
+  }
+  
 }
-} 
+
+

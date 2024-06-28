@@ -1,4 +1,4 @@
-.theme_dark {
+:root.theme-dark {
   --main-color: #000028;
   --accent-color: #ff0070;
   --text-color: #f1b2ce;
@@ -15,3 +15,4 @@
   --bg-img: url(../images/cover-image-dark.png);
   --button-border-hover: #ff007066;
 }
+
