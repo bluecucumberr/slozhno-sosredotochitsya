@@ -16,3 +16,81 @@
   --button-border-hover: #ff007066;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-color: #000028;
+    --accent-color: #ff0070;
+    --text-color: #f1b2ce;
+    --header-color: #db00ff;
+    --bg-img: url(../images/cover-image-dark.png);
+    --button-border-hover: #ff007066;
+  }
+
+  .page.theme_auto .page {
+    color: var(--text-color, #f1b2ce);
+    background-color: var(--main-color, #000028);
+    background-image: var(--bg-img, url(../images/cover-image-dark.png));
+  }
+
+  .page.theme_auto .decorated-zone::before {
+    border-block-start: 1px solid var(--accent-color, #ff0070);
+    border-inline-end: 1px solid var(--accent-color, #ff0070);
+  }
+
+  .page.theme_auto .decorated-zone::after {
+    border-block-end: 1px solid var(--accent-color, #ff0070);
+    border-inline-start: 1px solid var(--accent-color, #ff0070);
+  }
+
+  .page.theme_auto .rec {
+    color: var(--accent-color, #ff0070);
+  }
+
+  .page.theme_auto .rec::before {
+    background: var(--accent-color, #ff0070);
+    box-shadow: 0 0 4px 2px var(--accent-color, #ff0070);
+  }
+
+  .page.theme_auto .header__theme-menu-button {
+    color: var(--accent-color, #ff0070);
+  }
+
+  .page.theme_auto .header__theme-menu-button_active {
+    border: 1px solid var(--accent-color, #ff0070);
+  }
+
+  .page.theme_auto .header__theme-menu-button:focus {
+    border-block-end: 1px solid var(--accent-color, #ff0070);
+  }
+
+  .page.theme_auto .header__title {
+    color: var(--header-color, #db00ff);
+    text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
+  }
+
+  .page.theme_auto .title-decor {
+    background-color: var(--accent-color, #ff0070);
+    color: var(--main-color, #000028);
+  }
+
+  .page.theme_auto .content__title {
+    color: var(--accent-color, #ff0070);
+  }
+
+  .page.theme_auto .link {
+    text-shadow: 2px 1px 0 var(--accent-color, #ff0070);
+  }
+
+  .page.theme_auto .link:hover {
+    border-block-end: 1px solid var(--text-color, #f1b2ce);
+  }
+
+  .page.theme_auto .link:focus {
+    outline: 1px solid var(--text-color, #f1b2ce);
+  }
+
+  .page.theme_auto .footer__title {
+    color: var(--header-color, #db00ff);
+    text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
+  }
+}
