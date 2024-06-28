@@ -1,4 +1,4 @@
-:root.theme-ligth {
+:root.theme_ligth {
   --main-color: #fff1f7;
   --accent-color: #ff8dcb;
   --text-color: #353430;
@@ -7,7 +7,7 @@
   --button-border-hover: #32312d66;
 }
 
-.page.theme_light {
+.theme_light {
   --main-color: #fff1f7;
   --accent-color: #ff8dcb;
   --text-color: #353430;
