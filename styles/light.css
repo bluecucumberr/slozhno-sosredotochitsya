@@ -17,7 +17,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .page {
+  :root {
     --main-color: #fff1f7;
     --accent-color: #ff8dcb;
     --text-color: #353430;
