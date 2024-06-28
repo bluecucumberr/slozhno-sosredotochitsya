@@ -111,7 +111,7 @@ button:focus {
 }
 
 .header__theme-menu-button:focus {
-  border-bottom: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--accent-color, #ff0070);
 }
 
 .header__title {
@@ -119,7 +119,7 @@ button:focus {
   font-weight: bold;
   color: var(--header-color, #db00ff);
   line-height: 95.7px;
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
   align-self: center;
   margin-right: auto;
 }
@@ -192,11 +192,11 @@ button:focus {
 }
 
 .link:hover {
-  border-bottom: 1px solid var(--text-color);
+  border-bottom: 1px solid var(--text-color, #f1b2ce);
 }
 
 .link:focus {
-  outline: 1px solid var(--text-color);
+  outline: 1px solid var(--text-color, #f1b2ce);
 }
 
 .title-decor-light {
