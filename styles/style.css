@@ -42,15 +42,15 @@
 .decorated-zone::before {
   top: 10px;
   right: 10px;
-  border-top: 1px solid var(--accent-color, #ff0070);
-  border-right: 1px solid var(--accent-color, #ff0070);
+  border-block-start: 1px solid var(--accent-color, #ff0070);
+  border-inline-end: 1px solid var(--accent-color, #ff0070);
 }
 
 .decorated-zone::after {
   bottom: 10px;
   left: 10px;
-  border-bottom: 1px solid var(--accent-color, #ff0070);
-  border-left: 1px solid var(--accent-color, #ff0070);
+  border-block-end: 1px solid var(--accent-color, #ff0070);
+  border-inline-start: 1px solid var(--accent-color, #ff0070);
 }
 
 .rec {
@@ -111,7 +111,7 @@ button:focus {
 }
 
 .header__theme-menu-button:focus {
-  border-bottom: 1px solid var(--accent-color, #ff0070);
+  border-block-end: 1px solid var(--accent-color, #ff0070);
 }
 
 .header__title {
@@ -121,7 +121,7 @@ button:focus {
   line-height: 95.7px;
   text-shadow: 4px 4px 0 var(--accent-color, #ff0070);
   align-self: center;
-  margin-right: auto;
+  margin-inline-end: auto;
 }
 
 .text_pink-card {
@@ -146,11 +146,11 @@ button:focus {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-bottom: 50px;
+  margin-block-end: 50px;
 }
 
 .main-content-section:last-child {
-  margin-bottom: 40px;
+  margin-block-end: 40px;
 }
 
 .paragrah_section-second-type {
@@ -168,7 +168,7 @@ button:focus {
 }
 
 .content__paragrah_title {
-  margin-bottom: 10px;
+  margin-block-end: 10px;
 }
 
 .paragrah {
@@ -178,7 +178,7 @@ button:focus {
 }
 
 .no-margin {
-  margin-bottom: 0px;
+  margin-block-end: 0px;
 }
 
 .content__text-block {
@@ -192,7 +192,7 @@ button:focus {
 }
 
 .link:hover {
-  border-bottom: 1px solid var(--text-color, #f1b2ce);
+  border-block-end: 1px solid var(--text-color, #f1b2ce);
 }
 
 .link:focus {
@@ -207,7 +207,7 @@ button:focus {
   display: flex;
   gap: 10px;
   flex-direction: column;
-  margin-top: 1px;
+  margin-block-start: 1px;
 }
 
 .gallery-item {
@@ -294,7 +294,7 @@ button:focus {
       "tape books icecream"
       "tape street street";
     gap: 20px;
-    margin-top: 20px;
+    margin-block-start: 20px;
   }
 
   .section-first-type {
@@ -312,7 +312,7 @@ button:focus {
   }
 
   .main-content-section {
-    margin-bottom: 80px;
+    margin-block-end: 80px;
   }
 }
 
@@ -397,13 +397,13 @@ button:focus {
 }
 
 .theme_light .decorated-zone::before {
-  border-top: 1px solid var(--text-color, #353430);
-  border-right: 1px solid var(--text-color, #353430);
+  border-block-start: 1px solid var(--text-color, #353430);
+  border-inline-end: 1px solid var(--text-color, #353430);
 }
 
 .theme_light .decorated-zone::after {
-  border-bottom: 1px solid var(--text-color, #353430);
-  border-left: 1px solid var(--text-color, #353430);
+  border-block-end: 1px solid var(--text-color, #353430);
+  border-inline-start: 1px solid var(--text-color, #353430);
 }
 
 .theme_light .title-decor {
