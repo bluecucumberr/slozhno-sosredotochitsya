@@ -25,37 +25,35 @@
     --bg-img: url(../images/cover-image-light.png);
     --button-border-hover: #32312d66;
   }
-  .theme_auto .rec {
+
+  .page.theme_auto .rec {
     display: none;
   }
-  
-  .theme_auto .header__theme-menu-button {
+
+  .page.theme_auto .header__theme-menu-button {
     color: var(--text-color, #353430);
   }
-  
-  .theme_auto .header__theme-menu-button_active {
+
+  .page.theme_auto .header__theme-menu-button_active {
     border: 1px solid var(--text-color, #353430);
   }
-  
-  .theme_auto .decorated-zone::before {
+
+  .page.theme_auto .decorated-zone::before {
     border-top: 1px solid var(--text-color, #353430);
     border-right: 1px solid var(--text-color, #353430);
   }
-  
-  .theme_auto .decorated-zone::after {
+
+  .page.theme_auto .decorated-zone::after {
     border-bottom: 1px solid var(--text-color, #353430);
     border-left: 1px solid var(--text-color, #353430);
   }
-  
-  .theme_auto .title-decor {
+
+  .page.theme_auto .title-decor {
     background-color: var(--accent-color, #ff8dcb);
     color: var(--text-color, #353430);
   }
-  
-  .theme_auto .content__title {
+
+  .page.theme_auto .content__title {
     color: var(--text-color, #353430);
   }
-  
 }
-
-
