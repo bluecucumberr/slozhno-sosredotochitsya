@@ -26,34 +26,34 @@
     --button-border-hover: #32312d66;
   }
 
-  .page.theme_auto .rec {
+  .theme_auto .rec {
     display: none;
   }
 
-  .page.theme_auto .header__theme-menu-button {
+  .theme_auto .header__theme-menu-button {
     color: var(--text-color, #353430);
   }
 
-  .page.theme_auto .header__theme-menu-button_active {
+  .theme_auto .header__theme-menu-button_active {
     border: 1px solid var(--text-color, #353430);
   }
 
-  .page.theme_auto .decorated-zone::before {
+  .theme_auto .decorated-zone::before {
     border-block-start: 1px solid var(--text-color, #353430);
     border-inline-end: 1px solid var(--text-color, #353430);
   }
 
-  .page.theme_auto .decorated-zone::after {
+  .theme_auto .decorated-zone::after {
     border-block-end: 1px solid var(--text-color, #353430);
     border-inline-start: 1px solid var(--text-color, #353430);
   }
 
-  .page.theme_auto .title-decor {
+  .theme_auto .title-decor {
     background-color: var(--accent-color, #ff8dcb);
     color: var(--text-color, #353430);
   }
 
-  .page.theme_auto .content__title {
+  .theme_auto .content__title {
     color: var(--text-color, #353430);
   }
 }
