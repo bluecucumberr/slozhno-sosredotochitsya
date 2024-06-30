@@ -102,7 +102,8 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid rgba(255, 0, 112, 0.4);
+  border: 1px solid #FF007066;
+  cursor: pointer;
 }
 
 a:focus,
@@ -111,7 +112,7 @@ button:focus {
 }
 
 .header__theme-menu-button:focus {
-  border-block-end: 1px solid var(--accent-color, #ff0070);
+  border-block-end: 1px solid #FF0070;
 }
 
 .header__title {
@@ -193,6 +194,7 @@ button:focus {
 
 .link:hover {
   border-block-end: 1px solid var(--text-color, #f1b2ce);
+  cursor: pointer;
 }
 
 .link:focus {
@@ -413,4 +415,12 @@ button:focus {
 
 .theme_light .content__title {
   color: var(--text-color, #353430);
+}
+
+.theme_light .header__theme-menu-button:hover {
+  border-color: #32312D66;
+} 
+
+.theme_light  .header__theme-menu-button:focus {
+  border-block-end-color: #353430;
 }
